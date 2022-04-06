@@ -10,11 +10,11 @@ let handler = async (m, { conn }) => {
 
     let str = `
 ┌────〔 Info 〕───⬣
-│✧ NameBot : Kanao-Bot
-│✧ Main Owner: Hyzer
+│✧ NameBot : DanzBot
+│✧ Main Owner: Danzz. 
 │✧ Operated Since: Lupa gw
 │✧ Language Used: Nodejs (JS)
-│✧ Server: Rdp
+│✧ Server: Heroku
 │✧ SC: Chat Owner
 ╰────────────⬣
 
@@ -39,7 +39,7 @@ let handler = async (m, { conn }) => {
 │✧ ${jadibot ? '✅' : '❌'} *Jadi Bot*
 │✧ ${nsfw ? '✅' : '❌'} *Mode Nsfw*
 ╰────────────⬣`.trim()
-     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '❖ Kanao-Bot', 'Owner', '.owner', 'Menu', '.menu', m)
+     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, 'DanzBot', 'Owner', '.owner', 'Menu', '.menu', m)
 }
 handler.help = ['botstatus']
 handler.tags = ['info']
