@@ -4,9 +4,9 @@ let handler = async (m, { conn, text }) => {
 ╭═════════════════
 ║╭──❉ [ GRUB BOT ] ❉──
 ║│➸ *𝐆𝐑𝐎𝐔𝐏 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋¹*
-║│➸ https://tinyurl.com/y7xymnkd
+║│➸ https://chat.whatsapp.com/KuW6Ojk8b3NF8GIpt9v4EL
 ║│➸ *𝐆𝐑𝐎𝐔𝐏 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋²*
-║│➸ https://tinyurl.com/yc92fva7
+║│➸ https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK
 ║╰───────────────
 ╰══════════════════
 
