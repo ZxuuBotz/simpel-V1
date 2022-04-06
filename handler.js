@@ -656,19 +656,15 @@ global.dfail = (type, m, conn) => {
     admin: 'Khusus Admin group',
     nsfw: 'Perintah ini hanya bisa diaktifkan oleh owner',
   }[type]
-  if (msg) return conn.sendButton(m.chat, msg, watermark, 'Ok Dex', 'Nanii', m)
+  if (msg) return conn.sendButton(m.chat, msg, watermark, 'OK', 'Nanii', m)
   let botAdmin = {
     botAdmin: 'Mikir dkit lah bang *BOT NYA BUKAN ADMIN*',
   }[type]
-  if (botAdmin) return conn.sendButton(m.chat, botAdmin, 'Maap Bang Gua Lupa🗿', 'Eh Iya Ngab Lupa Gua🗿', 'Kont', m)
+  if (botAdmin) return conn.sendButton(m.chat, botAdmin, 'Lupa Saya', 'Eh iya ya', 'Nanii', m)
   let unreg = {
-    unreg: `Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Danz.18*`
+    unreg: `Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar LynXzy.16*`
   }[type]
-  if (unreg) return conn.sendButton(m.chat, `*╭── 「 TIDAK TERDAFTAR 」 ──*
-│Halo kak $⁩{name} !
-│Kamu Belum Terdaftar Di Database Bot
-│Yuk Daftar Dulu Dengan Klik Button Dibawah
-╰──────', watermark, '⬡ *_DAFTAR_*', `#daftar ${name}.17`, { key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `_DanzBot_\nJam ${time}`, itemCount: 2022, thumbnail: fs.readFileSync('./src/RadBotZ.jpg')}}})
+  if (unreg) return conn.sendButton(m.chat, `Halo kak ${name} Sebelum menggunakan fitur ini Harap Verify Terlebih dahulu`, watermark, 'Verify', `#daftar ${name}.17`, { key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `©shirobotz_\nJam ${time}`, itemCount: 2022, thumbnail: fs.readFileSync('./src/RadBotZ.jpg')}}})
 }
 
 let chalk = require('chalk')
