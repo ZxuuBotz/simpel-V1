@@ -14,8 +14,8 @@ let fs = require('fs')
 let chalk = require('chalk')
 
 global.linkGC = ['https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV', 'https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV', 'https://chat.whatsapp.com/HBhy7rVae3o0PkIfkhvs2N'] // ganti jadi group lu
-global.owner = ['6287892711054', '6287892711054', '6287892711054'] // Masukan nomot kalian
-global.mods = ['6287892711054', '6287892711054'] // Moderator
+global.owner = ['6288270863279', '6288270863279', '088270863279'] // Masukan nomot kalian
+global.mods = ['6288270863279', '6288270863279'] // Moderator
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -54,8 +54,8 @@ global.APIKeys = { // APIKey Here
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'hehe'
-  var sticker_author = 'by ShiroBotz'
+  var sticker_name = 'DanzBot'
+  var sticker_author = 'by DanzBot'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -73,7 +73,7 @@ global.packname = sticker_name
 global.author = sticker_author
 
 // silakan di ganti klo mau
-global.wait = '_Wait.._'
+global.wait = '_Wait Dex.._'
 global.rpg = 'Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/EheAWPrQMhV25xW0N7l7WD'
 global.nsfw = '“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padany,” \n(TQS. Al-Nur [24]: 30-31).'
 global.eror = '_*Error*_'
